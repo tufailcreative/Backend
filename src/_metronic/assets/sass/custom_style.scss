@@ -1,0 +1,489 @@
+.authbgcolor {
+
+    background: #001B5C !important;
+}
+
+.authtext {
+    color: #001B5C !important;
+
+}
+
+.bg-ch-header {
+
+    background: #F3F6F9 !important;
+}
+
+.logo-bottom-boarder {
+
+    border-bottom: 1px solid #EBECF3;
+}
+
+.aside-fixed .aside {
+    padding: 0px 8px;
+
+}
+
+.titleSubmenu {
+    padding: 0.65rem 1.65rem;
+    font-size: 16px !important;
+    font-weight: 600;
+}
+
+.menu-item .menu-link .menu-arrow {
+
+    margin-left: 2.5rem
+}
+
+
+.btn.btn-active-light:hover:not(.btn-active),
+.btn.btn-active-light:active:not(.btn-active) {
+  //  background: $cutom-hover-menue-btn  !important;
+}
+
+
+
+.menue-drawrCustom {
+    border-right: 1px solid #EBECF3;
+
+}
+
+.aside {
+    border-right: 1px solid #EBECF3;
+}
+
+.header-fixed .header {
+    border-bottom: 1px solid #EBECF3;
+}
+
+.fsatollenav {
+    left: 274px;
+    top: 31px;
+    position: fixed;
+    z-index: 1;
+}
+
+.fsatollenavclose {
+    left: 74px;
+    top: 78px;
+    position: fixed;
+    z-index: 1;
+    display: none !important;
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+    /* CSS */
+
+    .header-fixed .header {
+        position: fixed;
+        top: 0;
+        right: 0;
+
+    }
+
+    .menue-drawrCustom {
+
+        position: fixed;
+        left: 65px;
+        background: white;
+        padding-left: 20px;
+        width: 250px;
+        height: 100vh;
+
+    }
+
+
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+
+    .header-fixed .header {
+        position: fixed;
+        top: 0;
+        right: 0;
+
+    }
+
+    .menue-drawrCustom {
+
+        position: fixed;
+        left: 65px;
+        background: white;
+        width: 250px;
+        padding-left: 20px;
+        height: 100vh;
+
+    }
+
+
+}
+
+/*   
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .fsatollenav,
+    .fsatollenavclose {
+        display: none !important;
+    }
+
+    .content {
+        margin-left: 0px !important;
+    }
+
+    .header-fixed .header {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0 !important;
+    }
+
+    .menue-drawrCustom {
+
+        position: fixed;
+        left: 62px;
+        z-index: 400;
+        background: white;
+        width: 263px;
+        height: 100vh;
+        display: none !important;
+
+    }
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    .fsatollenav,
+    .fsatollenavclose {
+        display: none !important;
+    }
+
+    .content {
+        margin-left: 0px !important;
+    }
+
+    .header-fixed .header {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0 !important;
+    }
+
+    .menue-drawrCustom {
+
+        position: fixed;
+        left: 62px;
+        z-index: 400;
+        background: white;
+        width: 263px;
+        height: 100vh;
+        display: none !important;
+
+    }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    .fsatollenav,
+    .fsatollenavclose {
+        display: none !important;
+    }
+
+    .content {
+        margin-left: 0px !important;
+    }
+
+    .header-fixed .header {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0 !important;
+    }
+
+    .menue-drawrCustom {
+
+        position: fixed;
+        left: 62px;
+        z-index: 400;
+        background: white;
+        width: 263px;
+        height: 100vh;
+        display: none !important;
+
+    }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .fsatollenav,
+    .fsatollenavclose {
+        display: none !important;
+    }
+
+    .content {
+        margin-left: 0px !important;
+    }
+
+    .header-fixed .header {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0 !important;
+    }
+
+    .menue-drawrCustom {
+
+        position: fixed;
+        left: 62px;
+        z-index: 400;
+        background: white;
+        width: 263px;
+        height: 100vh;
+        display: none !important;
+
+    }
+}
+
+
+.iconAutoStyle svg {
+    height: auto !important;
+    width: auto !important;
+}
+
+.mxC-3 {
+    margin-left: 0.5rem !important;
+}
+
+.btnHovercx:hover {
+
+    color: $info  !important;
+}
+
+.iconbtnStylecx {
+    font-size: 24px !important;
+}
+
+.iconbtnStylecx:hover {
+
+    color: $info  !important;
+}
+
+.dropzone {
+    min-height: auto;
+    padding: 1.5rem 1.75rem;
+    cursor: pointer !important;
+    border: 1px dashed $info;
+    background-color: #F8F5FF;
+    border-radius: 0.475rem !important;
+    border-top-left-radius: 0.475rem !important;
+    border-top-right-radius: 0.475rem !important;
+    border-bottom-right-radius: 0.475rem !important;
+    border-bottom-left-radius: 0.475rem !important;
+}
+
+.notificationAlerts {
+    min-height: auto;
+    padding: 0.6rem 1rem;
+    cursor: pointer !important;
+    border: 1px dashed;
+    border-radius: 0.475rem !important;
+    border-top-left-radius: 0.475rem !important;
+    border-top-right-radius: 0.475rem !important;
+    border-bottom-right-radius: 0.475rem !important;
+    border-bottom-left-radius: 0.475rem !important;
+}
+
+.notificationAlertsradius {
+    border-radius: 13px;
+}
+
+.createTicket {
+    position: relative;
+    top: calc(44% - 16px/2);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 16px;
+    /* identical to box height, or 145% */
+
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
+    /* Light mode/Neutral600 */
+
+    color: #666687;
+}
+
+.hoverShowCustom .menu-item a {
+
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.hoverShowCustom .menu-item a:hover {
+
+    font-size: 15px;
+    color: $info  !important;
+    font-weight: 500;
+} 
+
+.menu-state-bullet-primary .menu-item .menu-link.active {
+ 
+    background-color: #ffffff;
+  
+}
+.menu-state-bullet-primary .menu-item .menu-link.active.notparent {
+ 
+    
+    border-right: none;
+}
+.menu-state-bullet-primary .menu-item .menu-link.active.haveparent {
+ 
+    
+    border-right: 2px solid #3699FF;
+}
+
+
+
+
+.menu-item .menu-link {
+
+    padding: 0rem 1rem;
+}
+.menu-item.menu-accordion .menu-link{
+    padding: 0.65rem 0rem; 
+}
+.customchfsScrollaside:hover{
+    overflow-y: scroll;
+    height: 500px;
+}
+
+.aside .menu .menu-item .menu-link .menu-icon {
+    flex-shrink: 0;
+    width: 48px;
+    height: 48px;
+    border-radius: 0.475rem;
+}
+
+
+.aside .menu > div .menu-item > .menu-link .menu-icon i, .aside .menu > div .menu-item > .menu-link .menu-icon .svg-icon {
+    color: #1B3554 ;
+}
+ 
+
+.menu-state-icon-primary div .menu-item .menu-link.active .menu-icon, .menu-state-icon-primary div .menu-item .menu-link.active .menu-icon .svg-icon, .menu-state-icon-primary div .menu-item .menu-link.active .menu-icon i {
+    color: #3699FF;
+}
+
+
+.menu-sub:not([data-popper-placement])>.menu-item>.menu-content,
+.menu-sub:not([data-popper-placement])>.menu-item>.menu-link,
+.menu-sub:not([data-popper-placement])>.menu-inner>.menu-item>.menu-content,
+.menu-sub:not([data-popper-placement])>.menu-inner>.menu-item>.menu-link {
+    padding-left: 0px;
+    margin-left: -3px;
+}
+
+.svg-icon.svg-icon-cufs svg {
+    height: 30px !important;
+    width: 30px !important;
+}
+
+
+.cfhsline {
+    color: #EBECF3;
+    opacity: 1.1;
+    width: 24px;
+    margin: 0px;
+}
+
+.customVistedHoverButton {
+
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.fontsizechfsdate {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.fontsizechfslogtime {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.fontsizechfslogtime2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.fontSizeMainTitle {
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 22px !important;
+    line-height: 33px;
+}
+
+.menu-item .menu-link .menu-icon {
+
+    margin-right: 0px;
+
+}  
+.menu-sub.menu-sub-accordion .menu-link .menu-icon{
+    margin-right: 0.5rem !important;
+}
+
+.btn.btn-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    height: 48px;
+    width: 48px;
+  }
+
+  
+
+  .iconAutoStyleMargin svg {
+
+    margin-top: -3px;
+  }
